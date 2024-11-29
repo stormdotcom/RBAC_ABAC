@@ -1,0 +1,46 @@
+{
+  "roles": [
+    {
+      "id": "admin",
+      "name": "Administrator",
+      "permissions": ["manage_users", "edit_posts", "delete_posts", "view_reports"]
+    },
+    {
+      "id": "editor",
+      "name": "Editor",
+      "permissions": ["edit_posts", "delete_posts"]
+    },
+    {
+      "id": "viewer",
+      "name": "Viewer",
+      "permissions": ["view_posts"]
+    }
+  ],
+  "permissions": [
+    {
+      "id": "manage_users",
+      "name": "Manage Users",
+      "description": "Allows managing user accounts and roles"
+    },
+    {
+      "id": "edit_posts",
+      "name": "Edit Posts",
+      "description": "Allows editing existing posts"
+    },
+    {
+      "id": "delete_posts",
+      "name": "Delete Posts",
+      "description": "Allows deleting posts"
+    },
+    {
+      "id": "view_posts",
+      "name": "View Posts",
+      "description": "Allows viewing posts"
+    },
+    {
+      "id": "view_reports",
+      "name": "View Reports",
+      "description": "Allows viewing system reports"
+    }
+  ]
+}
