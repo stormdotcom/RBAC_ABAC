@@ -217,6 +217,4 @@ Today, we learned:
 ### **Takeaway**  
 Start with **RBAC** for simplicity and add **ABAC** rules as needed for more control.  
 
-Try running the C# examples on your machine and experiment with different roles and conditions. Let me know if you have any doubts! 👩‍💻👨‍💻  
-
 ---
