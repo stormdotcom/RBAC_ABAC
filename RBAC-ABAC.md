@@ -93,8 +93,8 @@ class Program
     static void Main()
     {
         // Example usage
-        Console.WriteLine(Authorize("Alice", "delete", "datasets.outturnreports")); // True
-        Console.WriteLine(Authorize("Charlie", "write", "datasets.outturnreports")); // False
+        Console.WriteLine(Authorize("Alice", "delete", "datasets.reports")); // True
+        Console.WriteLine(Authorize("Charlie", "write", "datasets.reports")); // False
     }
 }
 ```
@@ -126,7 +126,7 @@ Attributes can include:
 
 ### **Example ABAC Rule**  
 
-> “Admins can `write` to `datasets.outturnreports` **only if** the access happens between 9AM-5PM and the request comes from IP `192.168.1.1`.”
+> “Admins can `write` to `datasets.reports` **only if** the access happens between 9AM-5PM and the request comes from IP `192.168.1.1`.”
 
 ---
 
