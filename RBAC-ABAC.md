@@ -1,4 +1,4 @@
-# ** Understanding Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC)**
+#  Understanding Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC)
 
 Hello Everyone! 👋  
 
