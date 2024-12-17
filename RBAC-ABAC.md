@@ -157,15 +157,15 @@ class Program
         var attributes = userAttributes[user];
         string role = attributes["role"];
 
-        return role == "Admin" && resource == "datasets.outturnreports" 
+        return role == "Admin" && resource == "datasets.reports" 
             && accessTime == "9AM-5PM" && accessIP == "192.168.1.1";
     }
 
     static void Main()
     {
         // Example usage
-        Console.WriteLine(AuthorizeABAC("Alice", "write", "datasets.outturnreports", currentTime, currentIP)); // True
-        Console.WriteLine(AuthorizeABAC("Alice", "write", "datasets.outturnreports", "8PM", currentIP));       // False
+        Console.WriteLine(AuthorizeABAC("Alice", "write", "datasets.reports", currentTime, currentIP)); // True
+        Console.WriteLine(AuthorizeABAC("Alice", "write", "datasets.reports", "8PM", currentIP));       // False
     }
 }
 ```
